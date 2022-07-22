@@ -45,6 +45,10 @@
 
 
 
+
+
+
+
 .preise-container {
   width: 100%;
   display: flex;
@@ -148,7 +152,8 @@
   justify-content: flex-end;
 }
 .preise-card {
-  width: auto;
+  width: 1416px;
+  height: 287px;
   display: flex;
   align-self: center;
   align-items: center;
@@ -188,7 +193,11 @@
   font-style: normal;
   font-weight: 400;
 }
-.preise-button {
+.preise-form {
+  width: 434px;
+  height: 54px;
+}
+.preise-link {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
   flex-shrink: 0;
@@ -196,9 +205,10 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.preise-button:hover {
+.preise-link:hover {
   transform: scale(1.02);
 }
 .preise-pricing {
@@ -251,7 +261,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.preise-button1 {
+.preise-button {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
   flex-shrink: 0;
@@ -259,9 +269,10 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.preise-button1:hover {
+.preise-button:hover {
   transform: scale(1.02);
 }
 .preise-card2 {
@@ -306,7 +317,7 @@
   font-style: normal;
   font-weight: 400;
 }
-.preise-button2 {
+.preise-button1 {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
   flex-shrink: 0;
@@ -314,9 +325,10 @@
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.preise-button2:hover {
+.preise-button1:hover {
   transform: scale(1.02);
 }
 .preise-footer {
@@ -396,7 +408,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.preise-link {
+.preise-link1 {
   display: contents;
 }
 .preise-icon10 {
@@ -405,7 +417,7 @@
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.preise-link1 {
+.preise-link2 {
   display: contents;
 }
 .preise-icon12 {
@@ -452,7 +464,7 @@
     margin-left: var(--dl-space-space-threeunits);
     margin-right: var(--dl-space-space-threeunits);
   }
-  .preise-button {
+  .preise-link {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -464,7 +476,7 @@
     margin-left: var(--dl-space-space-threeunits);
     margin-right: var(--dl-space-space-threeunits);
   }
-  .preise-button1 {
+  .preise-button {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -478,7 +490,7 @@
     margin-left: var(--dl-space-space-threeunits);
     margin-right: var(--dl-space-space-threeunits);
   }
-  .preise-button2 {
+  .preise-button1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
