@@ -193,10 +193,6 @@
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text05 {
-  color: var(--dl-color-gray-500);
-  align-self: flex-start;
-}
 .home-gallery-card1 {
   width: 100%;
   display: flex;
@@ -209,11 +205,10 @@
   height: 422px;
   object-fit: cover;
 }
-.home-text06 {
+.home-text05 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-halfunit);
 }
 .home-gallery-card2 {
   width: 100%;
@@ -227,15 +222,10 @@
   height: 100%;
   object-fit: cover;
 }
-.home-text07 {
+.home-text06 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
-  margin-bottom: var(--dl-space-space-halfunit);
-}
-.home-text08 {
-  color: var(--dl-color-gray-500);
-  align-self: flex-start;
 }
 .home-gallery-card3 {
   width: 100%;
@@ -249,13 +239,13 @@
   height: 100%;
   object-fit: cover;
 }
-.home-text09 {
+.home-text07 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text10 {
+.home-text08 {
   color: var(--dl-color-gray-500);
   align-self: flex-start;
 }
@@ -271,13 +261,13 @@
   height: 100%;
   object-fit: cover;
 }
-.home-text11 {
+.home-text09 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text12 {
+.home-text10 {
   color: var(--dl-color-gray-500);
   align-self: flex-start;
 }
@@ -293,13 +283,13 @@
   height: 100%;
   object-fit: cover;
 }
-.home-text13 {
+.home-text11 {
   align-self: flex-start;
   margin-top: var(--dl-space-space-halfunit);
   font-weight: 600;
   margin-bottom: var(--dl-space-space-halfunit);
 }
-.home-text14 {
+.home-text12 {
   color: var(--dl-color-gray-500);
   align-self: flex-start;
 }
@@ -311,7 +301,7 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.home-text15 {
+.home-text13 {
   text-align: center;
   font-weight: 600;
   margin-bottom: var(--dl-space-space-twounits);
@@ -356,7 +346,7 @@
 .home-image8 {
   height: 2rem;
 }
-.home-text20 {
+.home-text18 {
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
 .home-links-container {
@@ -378,11 +368,11 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text22 {
+.home-text20 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text23 {
+.home-text21 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .home-socials {
@@ -391,7 +381,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text25 {
+.home-text23 {
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
@@ -431,10 +421,10 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
-.home-text26 {
+.home-text24 {
   align-self: center;
 }
-.home-text28 {
+.home-text26 {
   text-align: left;
 }
 @media(max-width: 1200px) {
@@ -470,7 +460,7 @@
   .home-gallery {
     grid-template-columns: 1fr 1fr;
   }
-  .home-text15 {
+  .home-text13 {
     text-align: center;
   }
 }
@@ -504,14 +494,60 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
+  .home-gallery-card {
+    height: 228px;
+    position: relative;
+  }
   .home-image2 {
+    top: 0px;
+    left: 0px;
     height: 10rem;
+    position: absolute;
+  }
+  .home-text04 {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+  }
+  .home-gallery-card1 {
+    height: 279px;
+    position: relative;
   }
   .home-image3 {
+    top: 0px;
+    left: 0px;
     height: 10rem;
+    position: absolute;
+  }
+  .home-text05 {
+    left: -4px;
+    width: 126px;
+    bottom: 17px;
+    height: 86px;
+    position: absolute;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .home-gallery-card2 {
+    position: relative;
   }
   .home-image4 {
+    top: 0px;
+    left: 0px;
     height: 10rem;
+    position: absolute;
+  }
+  .home-text06 {
+    left: 0px;
+    width: 110px;
+    bottom: 0px;
+    height: 41px;
+    display: none;
+    position: absolute;
+    margin-bottom: 0px;
   }
   .home-image5 {
     height: 10rem;
@@ -538,7 +574,7 @@
   .home-image8 {
     margin-bottom: 0px;
   }
-  .home-text20 {
+  .home-text18 {
     margin-top: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-twounits);
   }
@@ -555,7 +591,7 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .home-text26 {
+  .home-text24 {
     text-align: center;
   }
 }
