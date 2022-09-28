@@ -1,0 +1,39 @@
+.gallery-card-u-h-c-rangers-gallery-card {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card-u-h-c-rangers-image {
+  width: 536px;
+  height: 526px;
+  object-fit: cover;
+}
+.gallery-card-u-h-c-rangers-text {
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+
+@media(max-width: 1200px) {
+  .gallery-card-u-h-c-rangers-image {
+    width: 100%;
+    height: 1112px;
+  }
+}
+@media(max-width: 479px) {
+  .gallery-card-u-h-c-rangers-gallery-card {
+    top: 48px;
+    right: var(--dl-space-space-oneandhalfunits);
+    width: 166px;
+    height: 255px;
+    position: absolute;
+  }
+  .gallery-card-u-h-c-rangers-image {
+    width: 164px;
+    height: 165px;
+  }
+}
